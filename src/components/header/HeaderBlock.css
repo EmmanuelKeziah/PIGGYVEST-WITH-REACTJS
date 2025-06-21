@@ -1,0 +1,10 @@
+.navLeft {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navRight {
+    display: flex;
+    gap: 20px;
+}

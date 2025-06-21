@@ -1,0 +1,69 @@
+.heroTexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 40%;
+
+    .svg-icon {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #2295F2;
+        padding: 0 10px ;
+        color: #FFFFFF;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        
+    }
+
+    .svg-icon:hover{
+        background-color: #060F21;
+        color: #FFFFFF;
+    }
+
+    h2 {
+        font-size: 50px;
+        color: #122231;
+        line-height: 3rem;
+        max-width: 90%;
+    }
+
+    .buttonDiv {
+        display: flex;
+        gap: 20px;
+
+        button{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #122231;
+            color: #FFFFFF;
+
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        button:hover{
+            background-color: #000000;
+            transition: all 350ms;
+            animation: ease-in-out;
+            color: #FFFFFF;
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    p{
+        font-size: 18px;
+        color: #4E5760;
+        line-height: 1.5;
+        max-width: 75%;
+        font-weight: 500;
+    }
+}

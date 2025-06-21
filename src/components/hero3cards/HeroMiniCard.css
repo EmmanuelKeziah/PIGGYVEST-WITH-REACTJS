@@ -1,0 +1,180 @@
+.heroCardHeader {
+    text-align: center;
+    line-height: 1rem;
+    padding-bottom: 20px;
+
+    h4{
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+.flex-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0;
+    gap: 20px;
+
+    .flex{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 20px 0 20px;
+        border-radius: 25px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        
+        h4{
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 19px;
+            color: #3A4C5C;
+
+        }
+
+        img{
+            max-width: 240px;
+            height: auto;
+            
+        }
+
+        .arrow{
+            display: flex;
+            gap: 20px;
+            align-items: flex-end;
+            justify-content: space-between;
+        }
+
+        .svg {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .flex:hover{
+            cursor: pointer;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+            transition: all 350ms;
+        }
+    }
+
+    .blue{
+        h4{
+            color: #073274;
+        }
+
+        .arrow p{
+            color: #073274;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #073274;
+            color: #FFFFFF;
+        }
+    }
+    
+    .lightblue{
+        h4{
+            color: #0F60D6;
+        }
+
+        .arrow p{
+            color: #0F60D6;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #2295F2;
+            color: #FFFFFF;
+        }
+    }
+
+    .hotpink{
+        h4{
+            color: #FF69B4;
+        }
+
+        .arrow p{
+            color: #FF69B4;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #FF69B4;
+            color: #FFFFFF;
+        }
+    }
+
+    .blue-black{
+        h4{
+            color: #000000;
+        }
+
+        .arrow p{
+            color: #000000;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #000000;
+            color: #FFFFFF;
+        }
+    }
+
+    
+
+    .orange{
+        h4{
+            color: #FF7C42;
+        }
+        .arrow p{
+            color: #FF7C42;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #FF7C42;
+            color: #FFFFFF;
+        }
+    }
+
+    
+
+    .green{
+        h4{
+            color: #39C277;
+        }
+        .arrow p{
+            color: #39C277;
+            font-weight: bold;
+        }
+
+        &:hover{
+            background: #39C277;
+            color: #FFFFFF;
+        }
+    }
+
+    
+
+    .flex:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        transition: all 350ms;
+
+        h4, p, .arrow p{
+            color: #FFFFFF;
+        }
+    }
+}
