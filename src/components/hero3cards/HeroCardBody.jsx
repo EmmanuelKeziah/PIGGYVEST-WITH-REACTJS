@@ -20,7 +20,7 @@ const HeroCardBody = () => {
                         </div>
                         
                         <div className="arrowImg">
-                            <img src="./images/card1small.png" alt="card-1" />
+                            <img src="/images/card1small.png" alt="card-1" />
                         </div>
                     </div>
                 </div>
