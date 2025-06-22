@@ -1,0 +1,31 @@
+.testimonialLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 430px;
+    padding: 20px;
+}
+
+.testimonialRight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+
+    h3 {
+        font-size: 35px;
+        max-width: 70%;
+        color: #122231;
+    }
+
+    .buttonDiv {
+        gap: 20px;
+        display: flex;
+
+        img{
+            max-width: 20px;
+            max-height: 20px;
+        }
+    }
+}

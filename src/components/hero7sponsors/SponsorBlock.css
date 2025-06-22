@@ -1,0 +1,18 @@
+.sponsorHead {
+    text-align: center;
+    font-size: 33px;
+    color: #060F21;
+}
+
+.sponsorBody {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    img {
+        max-width: 200px;
+        margin: 0 auto;
+        height: 50px;
+        object-fit: contain;
+    }
+}

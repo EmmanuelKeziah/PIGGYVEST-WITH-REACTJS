@@ -1,0 +1,30 @@
+.footerSection1 {
+    p{  
+        font-size: 12px;
+        line-height: 2;
+        margin-bottom: 10px;
+    }
+
+    .class1{
+        width: 750px;
+    }
+
+    .class2{
+        width: 500px;
+    }
+
+    .class3{
+        color: #016DCD;
+        font-size: 11px;
+    }
+} 
+
+.disclaimer {
+    font-size: 0.85rem; 
+    color: gray; 
+    text-align: center; 
+    padding: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+

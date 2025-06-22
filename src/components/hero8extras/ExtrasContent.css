@@ -1,0 +1,56 @@
+.extrasStart{
+    
+    .footerLogo{
+        img{
+            width: 160px;
+        }
+    }
+
+    .logo2{
+        img{
+            width: 100px;
+        }
+    }
+}
+
+.extrasMiddle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+
+    h3{
+        font-size: 14px;
+        color: #3D4F60;
+    }
+
+    div a{
+        text-decoration: none;
+        font-size: 14px;
+        color: #3A4C5C;
+        line-height: 2.5;
+    }
+}
+
+.extrasEnd{
+    .footerIcons{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        padding: 10px;
+    }
+
+    .extraNotes{
+        p{
+            width: 400px;
+            text-align: right;
+            padding: 10px;
+            font-size: 14px;
+        }
+    }
+}
+
+.extrasStart,
+.extrasMiddle,
+.extrasEnd {
+    flex: 1 1 280px; 
+}

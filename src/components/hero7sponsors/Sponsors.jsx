@@ -1,11 +1,14 @@
-import './SponsorsBlock.css';
+import './Sponsors.css';
+import SponsorHeader from './SponsorHeader';
+import SponsorBody from './SponsorBody';
 
 const Sponsors = () => {
   return (
-    <div className="sponsorsBlock">
-      <h2>Welcome</h2>
-      </div>
-    );
+    <div className="sponsorBlock">
+      <SponsorHeader />
+      <SponsorBody />
+    </div>
+  );
 }
 
 export default Sponsors;

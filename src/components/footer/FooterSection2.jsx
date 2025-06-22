@@ -1,0 +1,14 @@
+import './FooterSection.css'
+
+const FooterSection2 = () => {
+    return (
+        <div className="disclaimer">
+                <p>
+                Disclaimer: This page is a frontend clone made for educational purposes only. It is not affiliated with or endorsed by the original website or company. No data is collected, and this site has no backend functionality.
+                </p>
+            </div>
+
+    );
+}
+
+export default FooterSection2;

@@ -3,11 +3,19 @@ import './TestimonialBlock.css';
 const TestimonialRight = () => {
     return (
         <div className="testimonialRight">
-            <h1>Testimonial Right</h1>
-            <p>
-                This is the right side of the testimonial block. It features a user testimonial about the service, highlighting their positive experience.
-            </p>
-            <img src="path_to_your_image.jpg" alt="Testimonial" />
+            <h3>
+                Join 5+ million people who save and invest with us
+            </h3>
+
+            <div className="buttonDiv">
+                <button className='light'>
+                    <img src="./public/Images/apple.png" alt="apple-icon" />Get on iPhone
+                </button>
+
+                <button className='light'>
+                    <img src="./public/Images/google-playstore.svg" alt="apple-icon" />Get on Android
+                </button>
+            </div>
         </div>
     );
 }

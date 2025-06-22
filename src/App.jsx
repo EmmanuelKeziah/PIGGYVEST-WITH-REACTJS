@@ -5,11 +5,10 @@ import MiniHero from './components/hero2security/MiniHero.jsx';
 import HeroCard from "./components/hero3cards/HeroCard.jsx";
 import Investment from './components/hero4investments/Investment.jsx';
 import Meet from './components/hero5meetsaver/Meet.jsx';
-// import TestimonialLeft from "./components/hero6testimonials/TestimonialLeft";
-// import TestimonialRight from "./components/hero6testimonials/TestimonialRight";
-// import Sponsors from './components/hero7sponsors/Sponsors.jsx';
-// import Extras from './components/hero8extras/Extras.jsx';
-// import Footer from './components/footer/Footer.jsx';
+import MainTestimonial from './components/hero6testimonials/MainTestimonial.jsx';
+import Sponsors from './components/hero7sponsors/Sponsors.jsx';
+import Extras from './components/hero8extras/Extras.jsx';
+import Footer from './components/footer/Footer.jsx';
 
 const App = () => {
 
@@ -21,11 +20,10 @@ const App = () => {
       <HeroCard />
       <Investment />
       <Meet />
-      {/* <TestimonialLeft  /> */}
-      {/* <TestimonialRight /> */}
-      {/* <Sponsors /> */}
-      {/* <Extras /> */}
-      {/* <Footer /> */}
+      <MainTestimonial />
+      <Sponsors />
+      <Extras />
+      <Footer />
 
         
     </div>

@@ -1,0 +1,30 @@
+.meetSaverHeader {
+    text-align: center;
+    padding: 50px 10px 30px 10px;
+    max-width: 72%;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #122231;
+        line-height: 1rem;
+    }
+
+    p {
+        font-size: 25px;
+        color: #3D4F60;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+}
+
+.meetSaverVid {
+    padding-bottom: 200px;
+
+    iframe {
+        border: 15px solid #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 25px;
+    }
+}
