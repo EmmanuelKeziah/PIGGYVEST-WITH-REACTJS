@@ -1,4 +1,4 @@
-import './Investment.css'
+import './Investments.css'
 import InvestmentHeader from './InvestmentHeader';
 import InvestmentBody from './InvestmentBody.jsx';
 

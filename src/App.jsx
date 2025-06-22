@@ -4,10 +4,7 @@ import Hero1Block from './components/hero1main/Hero1Block.jsx';
 import MiniHero from './components/hero2security/MiniHero.jsx';
 import HeroCard from "./components/hero3cards/HeroCard.jsx";
 import Investment from './components/hero4investments/Investment.jsx';
-// import MeetSaverHeader from "./components/hero5meetsaver/MeetSaverHeader";
-// import MeetSaverVid from "./components/hero5meetsaver/MeetSaverVid";
-// import InvestmentHeader from './components/hero4investments/InvestmentHeader.jsx';
-// import InvestmentBody from './components/hero4investments/InvestmentBody.jsx';
+import Meet from './components/hero5meetsaver/Meet.jsx';
 // import TestimonialLeft from "./components/hero6testimonials/TestimonialLeft";
 // import TestimonialRight from "./components/hero6testimonials/TestimonialRight";
 // import Sponsors from './components/hero7sponsors/Sponsors.jsx';
@@ -23,8 +20,7 @@ const App = () => {
       <MiniHero />
       <HeroCard />
       <Investment />
-      {/* <MeetSaverHeader /> */}
-      {/* <MeetSaverVid /> */}
+      <Meet />
       {/* <TestimonialLeft  /> */}
       {/* <TestimonialRight /> */}
       {/* <Sponsors /> */}
