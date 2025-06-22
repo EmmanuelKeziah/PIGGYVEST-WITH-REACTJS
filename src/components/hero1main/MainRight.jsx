@@ -3,7 +3,7 @@ import './HeroMain.css';
 const MainRight = () => {
     return (
         <div className="heroImg">
-            <img src="./public/Images/heroimgright.jpg" alt="hero-1-img"></img>
+            <img src="./public/images/heroimgright.jpg" alt="hero-1-img"></img>
         </div>
     );
 }

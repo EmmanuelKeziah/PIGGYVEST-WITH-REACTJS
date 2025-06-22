@@ -20,7 +20,7 @@ const HeroCardBody = () => {
                         </div>
                         
                         <div className="arrowImg">
-                            <img src="./public/Images/card-1-small.png" alt="card-1" />
+                            <img src="./public/images/card1small.png" alt="card-1" />
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const HeroCardBody = () => {
                         </div>
 
                         <div className="arrowImg">
-                            <img src="./public/Images/card-2-small.png" alt="card-2-image" />
+                            <img src="./public/images/card2small.png" alt="card-2-image" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const HeroCardBody = () => {
                         </div>
                         
                         <div className="arrowImg">
-                            <img src="./public/Images/target.avif" alt="card-3-image" />
+                            <img src="./public/images/target.avif" alt="card-3-image" />
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const HeroCardBody = () => {
                         </div>
 
                         <div className="arrowImg">
-                            <img src="./public/Images/flex-naira.avif" alt="card-4-image" />
+                            <img src="./public/images/flexnaira.avif" alt="card-4-image" />
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ const HeroCardBody = () => {
                         </div>
 
                         <div className="arrowImg">
-                            <img src="./public/Images/flex-dollar.avif" alt="card-5-image" />
+                            <img src="./public/images/flexdollar.avif" alt="card-5-image" />
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ const HeroCardBody = () => {
                         </div>
 
                         <div className="arrowImg">
-                            <img src="./public/Images/housemoney.png" alt="card-6-image"/>
+                            <img src="./public/images/housemoney.png" alt="card-6-image"/>
                         </div>
                     </div>
                 </div>
