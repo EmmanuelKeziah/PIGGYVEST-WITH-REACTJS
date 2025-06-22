@@ -21,12 +21,12 @@ const MainLeft = () => {
 
             <div className="buttonDiv">
                 <button>
-                    <img src="./public/Images/Apple-Logo.svg" alt="apple-logo" />
+                    <img src="./public/Images/applelogo.svg" alt="apple-logo" />
                     Get on iPhone 
                 </button>
 
                 <button>
-                    <img src="./public/Images/google-playstore.svg" alt="google-playstore-logo" />
+                    <img src="./public/Images/googleplaystore.svg" alt="google-playstore-logo" />
                     Get on Android
                 </button>
             </div>

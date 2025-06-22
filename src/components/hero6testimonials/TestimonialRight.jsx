@@ -9,11 +9,11 @@ const TestimonialRight = () => {
 
             <div className="buttonDiv">
                 <button className='light'>
-                    <img src="./public/Images/apple.png" alt="apple-icon" />Get on iPhone
+                    <img src="./public/Images/apple.png" alt="appleicon" />Get on iPhone
                 </button>
 
                 <button className='light'>
-                    <img src="./public/Images/google-playstore.svg" alt="apple-icon" />Get on Android
+                    <img src="./public/Images/googleplaystore.svg" alt="apple-icon" />Get on Android
                 </button>
             </div>
         </div>

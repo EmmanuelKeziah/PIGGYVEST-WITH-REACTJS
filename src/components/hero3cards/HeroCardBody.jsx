@@ -123,7 +123,7 @@ const HeroCardBody = () => {
                         </div>
 
                         <div className="arrowImg">
-                            <img src="./public/Images/house-money.png" alt="card-6-image"/>
+                            <img src="./public/Images/housemoney.png" alt="card-6-image"/>
                         </div>
                     </div>
                 </div>
