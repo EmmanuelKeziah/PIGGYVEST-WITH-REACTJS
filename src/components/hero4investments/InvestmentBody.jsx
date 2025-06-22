@@ -23,7 +23,7 @@ const InvestmentBody = () => {
             </div>
 
             <div className="arrowImg">
-                    <img src="./public/images/myinvestments.avif" alt="my-investment-img" />
+                    <img src="/images/myinvestments.avif" alt="my-investment-img" />
                 </div>
         </div>
     );

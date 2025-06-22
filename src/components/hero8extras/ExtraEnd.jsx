@@ -4,11 +4,11 @@ const ExtraEnd = () => {
     return (
         <div className="extrasEnd">
             <div className="footerIcons">
-                <img src="./public/images/facebook.svg" alt="facebook-logo" />
-                <img src="./public/images/instagram.svg" alt="instagram-logo" />
-                <img src="./public/images/twitter.svg" alt="twitter-logo" />
-                <img src="./public/images/tiktok.svg" />
-                <img src="./public/images/youtube.svg" alt="youtube-logo" />
+                <img src="/images/facebook.svg" alt="facebook-logo" />
+                <img src="/images/instagram.svg" alt="instagram-logo" />
+                <img src="/images/twitter.svg" alt="twitter-logo" />
+                <img src="/images/tiktok.svg" />
+                <img src="/images/youtube.svg" alt="youtube-logo" />
             </div>
                 
             <div className="extraNotes">
