@@ -8,7 +8,7 @@ const FooterSection1 = () => {
             </p>
 
             <p className="class2">
-                PV Capital Limited is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria.
+                PV Capital Limited is a fund manager duly licensed by the Securities and Exchange Commission (SEC) of Nigeria
             </p>
 
             <p className="class3">
